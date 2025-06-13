@@ -119,7 +119,6 @@ class BookController extends Controller
         return response()->json([
             'status' => 'success',
             'message' => 'Book deleted successfully'
-        ], 200);
-
-}
+        ], 200);
+    }
 }
